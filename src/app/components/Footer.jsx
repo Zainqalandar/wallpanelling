@@ -27,7 +27,6 @@ const Footer = () => {
 									<span className="font-medium">
 										Chief Executive:
 									</span>
-									<span>Muhammad Atif</span>
 									<span>📞 0321-8542021</span>
 								</div>
 
