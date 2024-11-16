@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import { Slider } from './Slider';
 
 const GridyImages = () => {
 	const [images, setImages] = useState([
@@ -45,13 +46,14 @@ const GridyImages = () => {
 
 	return (
 		<>
-			<div  className="relative rounded overflow-hidden">
+			{/* <div  className="relative rounded overflow-hidden">
 				<img
 					src="/images/p39.jpeg"
 					alt="Hanging Planters"
 					className="w-full"
 				/>
-			</div>
+			</div> */}
+			<Slider />
 			<div className="flex flex-col md:grid md:grid-cols-3 gap-3">
 				{images.map((image) => (
 					<div
